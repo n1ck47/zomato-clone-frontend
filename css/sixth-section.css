@@ -1,0 +1,109 @@
+.sixth-section{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 100px;
+}
+
+.sixth-section-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.sixth-section-top-left img{
+    height: 30px;
+}
+
+.sixth-section-top-right{
+    display: flex;
+}
+
+.sixth-section-top-right div{
+    margin-left:10px;
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 8px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+select{
+    margin-left:10px;
+    height:40px;
+    outline:none;
+    background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 95% 50%;
+	-moz-appearance: none; 
+	-webkit-appearance: none; 
+	appearance: none;
+    width:100px;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    color: rgb(68, 66, 66);
+}
+
+.sixth-section-middle{
+    margin-top:40px;
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(197, 196, 196);
+}
+
+
+.sixth-section-middle div div{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+ul{
+    margin-top:15px;
+    list-style-type: none;
+}
+
+li{
+    margin-top:6px;
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+}
+
+li img{
+    height:35px;
+}
+
+li ul{
+    display:flex;
+    justify-content:flex-start;
+}
+
+li ul li{
+    margin-right: 10px;
+}
+
+.sixth-section-bottom{
+    margin-top:20px;
+    font-size:12px;
+    color: rgb(128, 128, 128);
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:800px){
+    .sixth-section{
+        padding: 10px 10px;
+    }
+    .sixth-section-middle div div{
+        font-size:15px;
+    }
+    li{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .sixth-section-middle div div{
+        font-size:12px;
+    }
+    li{
+        font-size: 10px;
+    }
+}
